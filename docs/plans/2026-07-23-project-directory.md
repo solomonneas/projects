@@ -130,7 +130,7 @@ test("owner and category filters combine", () => {
 - Create: `LICENSE`
 - Create: `.gitignore`
 
-- [ ] Add dependency-free scripts:
+- [x] Add dependency-free scripts:
 
 ```json
 {
@@ -142,12 +142,12 @@ test("owner and category filters combine", () => {
 }
 ```
 
-- [ ] Write the public README with the Pages URL, local preview command, dataset policy, and repository structure.
-- [ ] Add the MIT license and ignore environment, editor, OS, agent, and temporary files.
-- [ ] Run `npm test` and expect all tests to pass.
-- [ ] Run a local server and verify desktop plus mobile behavior in a browser.
-- [ ] Run the complete publish-readiness tree and history checks. The required verdict is `SHIP`.
-- [ ] Commit with `git add -A && git commit -m "docs: prepare project directory for publication"`.
+- [x] Write the public README with the Pages URL, local preview command, dataset policy, and repository structure.
+- [x] Add the MIT license and ignore environment, editor, OS, agent, and temporary files.
+- [x] Run `npm test` and expect all tests to pass.
+- [x] Run a local server and verify desktop plus mobile behavior in a browser.
+- [x] Run the complete publish-readiness tree and history checks. The required verdict is `SHIP`.
+- [x] Commit with `git add -A && git commit -m "docs: prepare project directory for publication"`.
 
 ### Task 5: Publish and connect the profile
 
