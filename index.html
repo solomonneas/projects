@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A curated directory of active projects from Escoffier Labs, Lidless Labs, and Solomon Neas."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Projects · Solomon Neas" />
+    <meta
+      property="og:description"
+      content="51 active projects across agent operations, security, infrastructure, publishing, and developer tools."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solomonneas.github.io/projects/" />
+    <title>Projects · Solomon Neas</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <a class="wordmark" href="https://github.com/solomonneas">
+          <span class="mark" aria-hidden="true">S</span>
+          <span>solomonneas</span>
+          <span class="slash" aria-hidden="true">/</span>
+          <span class="muted">projects</span>
+        </a>
+        <span class="repository-total">51 repositories</span>
+      </header>
+
+      <main>
+        <section class="intro" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">Project directory</p>
+            <h1 id="page-title">Things I maintain.</h1>
+            <p class="lede">
+              Active work across agent operations, security, infrastructure,
+              publishing, and developer tools.
+            </p>
+          </div>
+
+          <div class="search-field">
+            <label for="project-search">Search projects</label>
+            <div class="search-control">
+              <svg aria-hidden="true" viewBox="0 0 20 20">
+                <path d="m14.5 14.5 4 4m-2-10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+              </svg>
+              <input
+                id="project-search"
+                type="search"
+                placeholder="Name, owner, or category"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+        </section>
+
+        <div class="directory">
+          <aside class="filter-rail" aria-label="Project filters">
+            <section class="filter-group" aria-labelledby="owner-heading">
+              <h2 id="owner-heading">Owner</h2>
+              <div id="owner-filters" class="filter-list"></div>
+            </section>
+
+            <section class="filter-group" aria-labelledby="category-heading">
+              <h2 id="category-heading">Category</h2>
+              <div id="category-filters" class="filter-list"></div>
+            </section>
+          </aside>
+
+          <section class="results" aria-labelledby="results-heading">
+            <div class="results-heading">
+              <h2 id="results-heading">Projects</h2>
+              <span id="result-count" aria-live="polite">51 projects</span>
+            </div>
+
+            <ul id="project-list" class="project-list"></ul>
+
+            <div id="empty-state" class="empty-state" hidden>
+              <p>No projects match those filters.</p>
+              <button id="reset-filters" type="button">Reset filters</button>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <p>Curated, not generated from recent activity.</p>
+        <a href="https://github.com/solomonneas">GitHub profile ↗</a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -108,19 +108,19 @@ test("owner and category filters combine", () => {
 - Create: `.nojekyll`
 - Create: `404.html`
 
-- [ ] Write a failing source-level test that reads `index.html` and `styles.css` and asserts:
+- [x] Write a failing source-level test that reads `index.html` and `styles.css` and asserts:
   - one labeled search input
   - owner and category filter containers
   - a result-count live region
   - a project-list container
   - no `card`, `badge`, `online`, `live`, or numbered-row patterns
   - responsive rules at 700px
-- [ ] Run `node --test tests/markup.test.mjs` and expect failure because the page files do not exist.
-- [ ] Implement the semantic page shell in `index.html`.
-- [ ] Implement the approved light Split Directory layout in `styles.css` using one neutral palette, one density scale, flat separator rows, and radius only on controls.
-- [ ] Add `.nojekyll` and a small `404.html` root link.
-- [ ] Run `node --test tests/markup.test.mjs` and expect all markup assertions to pass.
-- [ ] Commit with `git add index.html styles.css .nojekyll 404.html tests/markup.test.mjs && git commit -m "feat: build split project directory"`.
+- [x] Run `node --test tests/markup.test.mjs` and expect failure because the page files do not exist.
+- [x] Implement the semantic page shell in `index.html`.
+- [x] Implement the approved light Split Directory layout in `styles.css` using one neutral palette, one density scale, flat separator rows, and radius only on controls.
+- [x] Add `.nojekyll` and a small `404.html` root link.
+- [x] Run `node --test tests/markup.test.mjs` and expect all markup assertions to pass.
+- [x] Commit with `git add index.html styles.css .nojekyll 404.html tests/markup.test.mjs && git commit -m "feat: build split project directory"`.
 
 ### Task 4: Repository documentation and complete verification
 
