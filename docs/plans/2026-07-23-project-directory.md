@@ -70,7 +70,7 @@ test("owner totals match the approved curation", () => {
 - Create: `tests/filter.test.mjs`
 - Create: `app.js`
 
-- [ ] Write failing tests for case-insensitive search, owner filtering, category filtering, and combined filtering:
+- [x] Write failing tests for case-insensitive search, owner filtering, category filtering, and combined filtering:
 
 ```js
 import test from "node:test";
@@ -93,11 +93,11 @@ test("owner and category filters combine", () => {
 });
 ```
 
-- [ ] Run `node --test tests/filter.test.mjs` and expect failure because `app.js` does not exist.
-- [ ] Implement and export `filterProjects(projects, filters)` without touching the DOM.
-- [ ] Add guarded browser rendering that only runs when `document` exists.
-- [ ] Run the test and expect two passing tests.
-- [ ] Commit with `git add app.js tests/filter.test.mjs && git commit -m "feat: add directory filtering"`.
+- [x] Run `node --test tests/filter.test.mjs` and expect failure because `app.js` does not exist.
+- [x] Implement and export `filterProjects(projects, filters)` without touching the DOM.
+- [x] Add guarded browser rendering that only runs when `document` exists.
+- [x] Run the test and expect two passing tests.
+- [x] Commit with `git add app.js tests/filter.test.mjs && git commit -m "feat: add directory filtering"`.
 
 ### Task 3: Accessible Split Directory shell
 
