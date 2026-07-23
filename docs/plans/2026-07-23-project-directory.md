@@ -155,10 +155,10 @@ test("owner and category filters combine", () => {
 - Remote-create: `solomonneas/projects`
 - Remote-modify: `solomonneas/solomonneas/README.md`
 
-- [ ] Create the public GitHub repository without an generated README or license.
-- [ ] Push local `main` and confirm the remote commit matches local `HEAD`.
-- [ ] Enable GitHub Pages from the `main` branch root.
-- [ ] Wait for `https://solomonneas.github.io/projects/` to return HTTP 200.
-- [ ] Replace the profile README's `Other work` line with the approved `Projects` link in the existing link row.
-- [ ] Fetch both remote READMEs and the live Pages site to verify the final public state.
-- [ ] Write the standard memory handoff under `.claude/memory-handoffs/`.
+- [x] Create the public GitHub repository without an generated README or license.
+- [x] Push local `main` and confirm the remote commit matches local `HEAD`.
+- [x] Enable GitHub Pages from the `main` branch root.
+- [x] Wait for `https://solomonneas.github.io/projects/` to return HTTP 200.
+- [x] Replace the profile README's `Other work` line with the approved `Projects` link in the existing link row.
+- [x] Fetch both remote READMEs and the live Pages site to verify the final public state.
+- [x] Write the standard memory handoff under `.claude/memory-handoffs/`.
