@@ -26,3 +26,10 @@ test("the source stays flat and responsive", async () => {
   assert.match(css, /@media\s*\(max-width:\s*700px\)/);
   assert.match(css, /overflow-x:\s*hidden/);
 });
+
+test("project links open a new tab safely", async () => {
+  const app = await readFile(new URL("../app.js", import.meta.url), "utf8");
+
+  assert.match(app, /link\.target\s*=\s*"_blank"/);
+  assert.match(app, /link\.rel\s*=\s*"noopener noreferrer"/);
+});

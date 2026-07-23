@@ -50,6 +50,8 @@ function createProjectRow(item) {
 
   link.className = "project-row";
   link.href = item.url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
   copy.className = "project-copy";
   name.className = "project-name";
   name.textContent = item.name;
