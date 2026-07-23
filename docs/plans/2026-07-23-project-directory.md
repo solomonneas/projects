@@ -28,7 +28,7 @@ Execute the tasks in order and track every checkbox. Tests use Node's built-in t
 - Create: `tests/projects.test.mjs`
 - Create: `projects.js`
 
-- [ ] Write the failing dataset test:
+- [x] Write the failing dataset test:
 
 ```js
 import test from "node:test";
@@ -59,10 +59,10 @@ test("owner totals match the approved curation", () => {
 });
 ```
 
-- [ ] Run `node --test tests/projects.test.mjs` and expect failure because `projects.js` does not exist.
-- [ ] Add all 51 approved records to `projects.js`.
-- [ ] Run the same command and expect two passing tests.
-- [ ] Commit with `git add projects.js tests/projects.test.mjs && git commit -m "feat: add curated project registry"`.
+- [x] Run `node --test tests/projects.test.mjs` and expect failure because `projects.js` does not exist.
+- [x] Add all 51 approved records to `projects.js`.
+- [x] Run the same command and expect two passing tests.
+- [x] Commit with `git add projects.js tests/projects.test.mjs && git commit -m "feat: add curated project registry"`.
 
 ### Task 2: Filtering behavior
 
