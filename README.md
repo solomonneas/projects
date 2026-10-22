@@ -1,6 +1,6 @@
 # Projects
 
-A curated directory of 51 active projects maintained by [Escoffier Labs](https://github.com/escoffier-labs), [Lidless Labs](https://github.com/lidless-labs), and [Solomon Neas](https://github.com/solomonneas).
+A curated directory of 46 active projects maintained by [Escoffier Labs](https://github.com/escoffier-labs), [Lidless Labs](https://github.com/lidless-labs), and [Solomon Neas](https://github.com/solomonneas).
 
 The directory lives at [solomonneas.github.io/projects](https://solomonneas.github.io/projects/).
 
