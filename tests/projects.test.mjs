@@ -2,9 +2,9 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { projects } from "../projects.js";
 
-test("the curated registry contains 51 unique complete projects", () => {
-  assert.equal(projects.length, 51);
-  assert.equal(new Set(projects.map((project) => project.url)).size, 51);
+test("the curated registry contains 46 unique complete projects", () => {
+  assert.equal(projects.length, 46);
+  assert.equal(new Set(projects.map((project) => project.url)).size, 46);
 
   for (const project of projects) {
     assert.ok(project.name);
@@ -23,6 +23,6 @@ test("owner totals match the approved curation", () => {
   }, {});
 
   assert.equal(totals["escoffier-labs"], 12);
-  assert.equal(totals["lidless-labs"], 25);
-  assert.equal(totals.solomonneas, 14);
+  assert.equal(totals["lidless-labs"], 24);
+  assert.equal(totals.solomonneas, 10);
 });
