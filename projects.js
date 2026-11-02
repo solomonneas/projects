@@ -28,9 +28,10 @@ const project = (name, owner, category, description, slug = name.toLowerCase()) 
 
 export const projects = [
   project("Brigade", "escoffier-labs", "agent-operations", "Local control plane for shared agent configuration, memory, evidence, and verified work.", "brigade"),
+  project("T3 Brigade Fleet", "escoffier-labs", "agent-operations", "Dispatches T3 Code sessions across an allowlisted fleet with Brigade receipts.", "t3-brigade-fleet"),
   project("Agent Pantry", "escoffier-labs", "agent-operations", "Encrypted browser-session and secret synchronization for agent machines.", "agentpantry"),
-  project("Agent Notify", "escoffier-labs", "agent-operations", "Private completion notifications through Discord, Telegram, Signal, and webhooks.", "agent-notify"),
   project("Skillet", "escoffier-labs", "agent-operations", "Installable workflows for coding agents.", "skillet"),
+  project("comeback", "escoffier-labs", "agent-operations", "Turns a screen recording with voice and on-screen ink into a bug bundle coding agents can read.", "comeback"),
   project("Memory Doctor", "escoffier-labs", "agent-operations", "Finds stale, contradictory, or oversized agent memory.", "memory-doctor"),
   project("Bootstrap Doctor", "escoffier-labs", "agent-operations", "Audits bootstrap files before silent truncation damages sessions.", "bootstrap-doctor"),
   project("Code Search API", "escoffier-labs", "agent-operations", "Local semantic and hybrid code search using Ollama and SQLite.", "code-search-api"),
@@ -58,13 +59,13 @@ export const projects = [
   project("Watchtower", "lidless-labs", "network", "NOC dashboard for network, virtualization, and alert telemetry.", "watchtower"),
   project("eero-cli", "lidless-labs", "network", "Command-line control for eero mesh networks.", "eero-cli"),
   project("Cutsheet", "lidless-labs", "network", "Configuration-diff and change-risk analysis for NetOps.", "cutsheet"),
-  project("PortGrid", "lidless-labs", "network", "Dense LibreNMS switch-port visualization.", "portgrid"),
   project("proxmox-mcp", "lidless-labs", "homelab", "Confirm-gated Proxmox operations for agents.", "proxmox-mcp"),
   project("adguardctrl", "lidless-labs", "homelab", "Hybrid CLI and MCP server for AdGuard Home.", "adguardctrl"),
   project("jellyctrl", "lidless-labs", "homelab", "Hybrid CLI and MCP server for Jellyfin library, session, user, and playback operations.", "jellyctrl"),
   project("immichctrl", "lidless-labs", "homelab", "Hybrid CLI and MCP server for typed Immich operations, including duplicate analysis.", "immichctrl"),
   project("ProxGuard", "lidless-labs", "homelab", "Proxmox configuration auditing and remediation.", "proxguard"),
   project("lidless-proxmox", "lidless-labs", "homelab", "Verified one-command Proxmox LXC installers.", "lidless-proxmox"),
+  project("effect-operator-kit", "lidless-labs", "developer-tools", "Shared Effect config, HTTP, error, retry, and MCP plumbing for the ctrl tools.", "effect-operator-kit"),
 
   project("Clawspace", "solomonneas", "developer-tools", "Bootstraps production-grade OpenClaw workspaces.", "clawspace"),
   project("Ops Deck OSS", "solomonneas", "developer-tools", "Self-hosted operational dashboard for OpenClaw.", "ops-deck-oss"),
